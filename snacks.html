@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delightful Bites - Snacks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delightful Bites</h1>
+        <div class="cart-link">
+            <a href="cart.html">View Cart</a>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Snacks</h2>
+            <p>Find your favorite crunchy and savory delights!</p>
+        </section>
+        <section id="products">
+            <h2>Our Snacks</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://i.pinimg.com/originals/52/7e/b5/527eb5283bf67db53e43b31916f0c098.jpg" alt="Chocolate Cookies">
+                    <h3>Choco Cookies</h3>
+                    <p>Price: PHP 50.00</p>
+                    <button onclick="addToCart('Choco Cookies', 50)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://recipes-secure-graphics.grocerywebsite.com/0_GraphicsRecipes/7977_4k.jpg" alt="Potato Chips">
+                    <h3>Potato Chips</h3>
+                    <p>Price: PHP 30.00</p>
+                    <button onclick="addToCart('Potato Chips', 30)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.iS1-P9sE3sbV1Xidalt2AAHaEK?rs=1&pid=ImgDetMain" alt="Pretzels">
+                    <h3>Pretzels</h3>
+                    <p>Price: PHP 75.00</p>
+                    <button onclick="addToCart('Pretzels', 75)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="lunch.html">Lunch Meals</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

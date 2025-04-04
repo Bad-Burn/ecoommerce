@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delightful Bites - Drinks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delightful Bites</h1>
+        <div class="cart-link">
+            <a href="cart.html">View Cart</a>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Snacks</h2>
+            <p>Find your favorite crunchy and savory delights!</p>
+        </section>
+        <section id="products">
+            <h2>Our Snacks</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://yummykitchentv.com/wp-content/uploads/2021/01/mango-graham-float.jpg" alt="Mango Graham Cake">
+                    <h3>Mango Graham Cake</h3>
+                    <p>Price: PHP 100.00</p>
+                    <button onclick="addToCart('Mango Graham Cake', 100)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://sugarfreelondoner.com/wp-content/uploads/2022/04/sugar-free-keto-creme-caramel-360x421.jpg" alt="Leche Flan">
+                    <h3>Leche Flan</h3>
+                    <p>Price: PHP 70.00</p>
+                    <button onclick="addToCart('Leche Flan', 70)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://primer.com.ph/food/wp-content/uploads/sites/4/2024/03/20240326_141150_0000.png" alt="Halo-Halo">
+                    <h3>Halo-Halo</h3>
+                    <p>Price: PHP 65.00</p>
+                    <button onclick="addToCart('Halo-Halo', 65)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="lunch.html">Lunch Meals</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

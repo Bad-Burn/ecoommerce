@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delightful Bites - Drinks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delightful Bites</h1>
+        <div class="cart-link">
+            <a href="cart.html">View Cart</a>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Snacks</h2>
+            <p>Find your favorite crunchy and savory delights!</p>
+        </section>
+        <section id="products">
+            <h2>Our Snacks</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.509uHcT3AgihPRrHvqR9awHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Tapsilog">
+                    <h3>Tapsilog</h3>
+                    <p>Price: PHP 90.00</p>
+                    <button onclick="addToCart('Tapsilog', 90)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://graceland.ph/wp-content/uploads/2023/05/SIZZLING-SISIG-WITH-EGG.jpg" alt="Sizzling Sisig">
+                    <h3>Sizzling Sisig</h3>
+                    <p>Price: PHP 90.00</p>
+                    <button onclick="addToCart('Sizzling Sisig', 90)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://40aprons.com/wp-content/uploads/2021/08/pork-adobo-reshoot-4-700x1038.jpg" alt="Adobo with Rice">
+                    <h3>Adobo with Rice</h3>
+                    <p>Price: PHP 70.00</p>
+                    <button onclick="addToCart('Adobo with Rice', 70)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="lunch.html">Lunch Meals</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

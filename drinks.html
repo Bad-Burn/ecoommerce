@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delightful Bites - Drinks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Delightful Bites</h1>
+        <div class="cart-link">
+            <a href="cart.html">View Cart</a>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Snacks</h2>
+            <p>Find your favorite crunchy and savory delights!</p>
+        </section>
+        <section id="products">
+            <h2>Our Snacks</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/5f/0b/83/5f0b8391e9a0637af36b8f543995bda9.jpg" alt="Buko Shake">
+                    <h3>Buko Shake</h3>
+                    <p>Price: PHP 20.00</p>
+                    <button onclick="addToCart('Buko Shake', 20)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.HPfCr8svocyzjF2m34-eOwHaE8?w=1024&h=684&rs=1&pid=ImgDetMain" alt="Apple Juice">
+                    <h3>Apple Juice</h3>
+                    <p>Price: PHP 25.00</p>
+                    <button onclick="addToCart('Apple Juice', 25)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://th.bing.com/th/id/OIP.jnp4eM5OuQVLQVtUQUWblwHaHa?rs=1&pid=ImgDetMain" alt="Milktea">
+                    <h3>Milktea</h3>
+                    <p>Price: PHP 55.00</p>
+                    <button onclick="addToCart('Milktea', 55)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="drinks.html">Drinks</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="lunch.html">Lunch Meals</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
